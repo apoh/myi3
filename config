@@ -158,4 +158,5 @@ exec --no-startup-id xset -b
 exec --no-startup-id xautolock -time 5 -locker \"i3lock -d -c 000000\"
 exec --no-startup-id /usr/bin/xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 bindsym $mod+Escape exec xautolock -locknow
+bindsym $mod+m exec --no-startup-id ~/.i3/scripts/move2primary.sh
 
