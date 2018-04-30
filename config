@@ -154,6 +154,7 @@ bar {
 }
 
 exec --no-startup-id nm-applet
+exec --no-startup-id megasync
 exec --no-startup-id xset -b
 exec --no-startup-id xautolock -time 5 -locker \"i3lock -d -c 000000\"
 exec --no-startup-id /usr/bin/xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
